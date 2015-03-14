@@ -1,0 +1,1 @@
+cmd_Release/xml.node := ./gyp-mac-tool flock ./Release/linker.lock c++ -bundle -Wl,-search_paths_first -mmacosx-version-min=10.5 -arch x86_64 -L./Release  -o Release/xml.node Release/obj.target/xml/src/xml.o -undefined dynamic_lookup /Users/zac/xml/src/tinyxml.o /Users/zac/xml/src/tinystr.o /Users/zac/xml/src/tinyxmlparser.o /Users/zac/xml/src/tinyxmlerror.o
